@@ -1,0 +1,14 @@
+
+:root{
+    --color-1: red ;
+}
+h1{
+    color: var(--color-1);
+}
+p{
+    color: var(--color-1);
+    
+}
+*{
+    font-family: "Bitcount Prop Single" ;
+}
