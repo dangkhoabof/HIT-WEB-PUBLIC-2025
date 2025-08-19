@@ -1,0 +1,28 @@
+.a{
+    display: flex;
+    background-color: #2E8CC9;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    border: none ;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.a:hover{
+    background-color: #0f2e42;
+    width: 220px;
+    height: 60px;
+    font-size: 15px;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
