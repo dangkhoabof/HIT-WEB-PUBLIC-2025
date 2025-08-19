@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Open Sans", sans-serif;
+}
+.phan1{
+    display: flex;
+    background-color: #0E1D34;
+    
+    
+}
+.anhminhhoa{
+    position: absolute;
+    width: 475px;
+    height: 475px;
+    left: 375px;
+    top: 100px;
+}
+.header{
+    display:  flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 25px;
+    position: fixed;
+    top: 0px;
+    background-color: rgba(14, 29, 52, 0.797);
+    color: white;
+    top: 0px;
+}
+.info a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #89909B;
+}
+.info a:hover{
+    color: white;
+}
+.info{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.info button{
+    background-color: #0D3BDB;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+.info button:hover{
+    cursor: pointer;
+}
+.phan1 img{
+    height: ;
+    width: 100vw;
+}
+.main{
+    position: absolute;
+    color: white;
+    top: 150px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 700px;
+    left: 75px;
+}
+.main p{
+    font-size: 20px;
+    margin: 30px 0px;
+    width: 750px;
+}
+.search{
+    width: 750px;
+    height: 75px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    border-radius: 10px;
+    align-items: center;
+}
+.search input{
+    border: none;
+    width: 300px;
+}
+.search button{
+    height: 60px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0D42FF;
+    color: white;
+    font-weight: bold;
+}
+.search button:hover{
+    cursor: pointer;
+}
+.search input:hover{
+    border: none;
+}
+.dulieu{
+    display: flex;
+    justify-content: space-between;
+}
+.dulieu div{
+    margin-top: 15px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    font-size: 15px;
+}
+hr{
+    margin: 15px 0px;
+    width: 20px;
+    border-color: #0D42FF;
+    border-width: 2px;
+}
+.phan2{
+    height: 120vh;
+    width: 100vw;
+}
+.navbar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-menu > li > a {
+  display: block;
+  
+  
+  color:  gray;
+  text-decoration: none;
+}
+.dropdown {
+  position: relative; 
+}
+
+.dropdown i {
+  font-size: 0.75rem;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.dropdown a {
+  color: #212529;
+  text-decoration: none;
+  transition: all 0.25s;
+  white-space: nowrap; 
+}
+
+.dropdown a:hover {
+  color: #0d42ff;
+}
+.sub-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transform: scaleY(0); 
+  transform-origin: top;
+  opacity: 0;
+  background-color: #ffffff;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  min-width: 200px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.sub-menu > li {
+  padding: 0.5rem 1rem;
+}
+.dropdown:hover > .sub-menu {
+  transform: scaleY(1);
+  opacity: 1;
+}
+.side-menu {
+  top: 0;
+  right: 100%;
+  left: auto;
+  transform-origin: top right;
+}
+.phan2__info{
+    position: absolute;
+    height: 90vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    left: 100px;
+    
+}
+.thongtin{
+    display: flex;
+    gap:40px;
+}
+.aboutus h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001973;
+}
+.aboutus h4{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 15px;
+}
+.thongtinkhac__tieude{
+    font-size: 20px;
+    color: #001973;
+}
+.thongtinkhac__noidung{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.icon i{
+color: #5046E5;
+  width: 35px;
+  font-size: 50px;
+  border-radius: 10px;
+}
+.thongtinkhac{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.phan2 img{
+    position: relative;
+    width: 45vw;
+    height: auto;
+    right: 50px;
+    top: 90px;
+    left: 750px;
+}
+.play{
+    font-size: 75px;
+    color: #001973;
+    position: relative;
+    left: 1100px;
+    bottom: 200px;
+    l
+}
+
